@@ -1,6 +1,8 @@
+## Overview
+
 A simple sentiment analysis pipeline to analyze movie reviews.
 
-### Installation
+## Installation
 
 First set up dependencies in a virtual environment:
 
@@ -17,7 +19,7 @@ Download English model for spaCy and the movie review dataset:
 $ curl -s https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz | tar xvz
 ```
 
-### Example Usage
+## Example Usage
 
 Set the `TEST_REVIEW` variable and then run:
 
