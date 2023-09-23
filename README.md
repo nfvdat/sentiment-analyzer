@@ -6,17 +6,17 @@ A simple NLP pipeline that trains a CNN to perform sentiment analysis on movie r
 
 First set up dependencies in a virtual environment:
 
-```console
-$ python -m venv .venv
-$ source .venv/bin/activate
-$ python -m pip install -r requirements.txt
+```
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
 Download English model for spaCy and the movie review dataset:
 
-```console
-$ python -m spacy download en_core_web_sm
-$ curl -s https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz | tar xvz
+```
+python -m spacy download en_core_web_sm
+curl -s https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz | tar xvz
 ```
 
 ## Example Usage
