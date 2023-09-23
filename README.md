@@ -1,21 +1,21 @@
 ## Overview
 
-A simple sentiment analysis pipeline to analyze movie reviews.
+A simple NLP pipeline that trains a CNN to perform sentiment analysis on movie reviews. Built using SpaCy.
 
 ## Installation
 
 First set up dependencies in a virtual environment:
 
-```shell
+```console
 $ python -m venv .venv
 $ source .venv/bin/activate
-(.venv) $ python -m pip install -r requirements.txt
+$ python -m pip install -r requirements.txt
 ```
 
 Download English model for spaCy and the movie review dataset:
 
-```shell
-(.venv) $ python -m spacy download en_core_web_sm
+```console
+$ python -m spacy download en_core_web_sm
 $ curl -s https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz | tar xvz
 ```
 
@@ -23,8 +23,8 @@ $ curl -s https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz | tar 
 
 Set the `TEST_REVIEW` variable and then run:
 
-```shell
-(.venv) $ python sentiment_analyzer.py
+```console
+$ python sentiment_analyzer.py
 Training model
 Beginning training
 Loss    Precision       Recall  F-score
